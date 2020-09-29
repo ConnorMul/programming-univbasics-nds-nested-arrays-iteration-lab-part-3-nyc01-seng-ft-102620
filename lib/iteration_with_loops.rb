@@ -9,5 +9,5 @@ def join_nested_strings(src)
     end 
   end 
  end
- new_arr.join
+ new_arr.join(" ")
 end
