@@ -5,7 +5,7 @@ def join_nested_strings(src)
   
   src.each do |outer|
     outer.each do |inner|
-      if aoa.class == string
+      if inner.class == string
         new_arr << aoa
     end 
   end 
