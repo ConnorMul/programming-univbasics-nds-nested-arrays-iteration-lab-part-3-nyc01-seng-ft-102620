@@ -6,7 +6,7 @@ def join_nested_strings(src)
   src.each do |outer|
     outer.each do |inner|
       if inner.class == string
-        new_arr << aoa
+        new_arr << inner
     end 
   end 
   new_arr.join
