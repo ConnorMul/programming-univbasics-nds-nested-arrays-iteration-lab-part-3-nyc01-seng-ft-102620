@@ -4,7 +4,7 @@ def join_nested_strings(src)
   new_arr = []
   
   src.each do |outer|
-    outer.each do |inner|
+    outer.select do |inner|
       if inner.class == String
         new_arr << inner
     end 
